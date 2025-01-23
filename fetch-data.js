@@ -1,4 +1,4 @@
-
+document.addEventListener('DOMContentLoaded', function() {
 
     async function fetchUserData() {
         const apiUrl = 'https://jsonplaceholder.typicode.com/users';
@@ -29,5 +29,5 @@
 
 
     fetchUserData();
-
+});
 
